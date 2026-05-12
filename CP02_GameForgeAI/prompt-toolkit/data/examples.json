@@ -1,0 +1,33 @@
+{
+  "classificacao_feedback": [
+    {"input": "Os controles hápticos são revolucionários, sinto cada impacto!", "output": "CLASSIFICAÇÃO: POSITIVO\nASPECTO PRINCIPAL: tecnologia"},
+    {"input": "A IA adaptativa torna cada partida única, mas o frame-rate cai muito.", "output": "CLASSIFICAÇÃO: MISTO\nASPECTO PRINCIPAL: performance"},
+    {"input": "História mediana, nada que se destaque.", "output": "CLASSIFICAÇÃO: NEUTRO\nASPECTO PRINCIPAL: historia"}
+  ],
+  "extracao_requisitos": [
+    {
+      "input": "Quero um sistema de clima dinâmico que afete a física dos projéteis no multiplayer online para PC.",
+      "output": "{\"feature\": \"clima dinâmico com física\", \"tecnologia\": \"simulação física + rede\", \"plataforma\": \"PC\", \"prioridade\": \"media\", \"estimativa_semanas\": 8}"
+    },
+    {
+      "input": "Precisamos de NPCs com diálogos gerados por IA em tempo real para o RPG do console.",
+      "output": "{\"feature\": \"NPCs com IA generativa\", \"tecnologia\": \"LLM on-device\", \"plataforma\": \"console\", \"prioridade\": \"alta\", \"estimativa_semanas\": 12}"
+    },
+    {
+      "input": "Sistema de replay com IA que destaca os melhores momentos automaticamente no mobile.",
+      "output": "{\"feature\": \"replay com IA highlights\", \"tecnologia\": \"computer vision\", \"plataforma\": \"mobile\", \"prioridade\": \"baixa\", \"estimativa_semanas\": 5}"
+    }
+  ],
+  "geracao_pitch": [
+    {
+      "input": "Jogo de RPG onde a IA cria a história enquanto você joga, sem roteiro fixo.",
+      "output": "TÍTULO: NarrAI Chronicles\nGANCHO: O primeiro RPG onde cada partida é única porque a IA escreve ao vivo.\nPROBLEMA: Jogadores abandonam RPGs após 20h por repetição de conteúdo.\nSOLUÇÃO: Engine de narrativa generativa em tempo real com LLM otimizado on-device.\nDIFERENCIAL: Patente pendente em narrative-branching com memória persistente por jogador.\nPROJEÇÃO: 500K MAU e 4.2 stars no meta-score em 12 meses."
+    }
+  ],
+  "sumarizacao_tendencias": [
+    {
+      "input": "Relatório Newzoo 2024: cloud gaming cresce 34% a.a., mobile representa 52% da receita global, XR headsets vendem 18M unidades.",
+      "output": "RESUMO EXECUTIVO: O mercado gamer global acelera em cloud e mobile, enquanto XR ganha tração de hardware. Oportunidades de receita recorrente via streaming e conteúdo cross-device são imediatas.\nTENDÊNCIAS-CHAVE:\n- Cloud gaming +34% a.a. reduz barreira de hardware\n- Mobile domina com 52% da receita global\n- XR com 18M headsets cria base instalada viável\nOPORTUNIDADE PARA GAMEFORGE: Lançar versão cloud do título principal em 6 meses."
+    }
+  ]
+}
