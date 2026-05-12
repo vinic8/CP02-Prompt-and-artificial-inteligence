@@ -1,0 +1,26 @@
+{
+  "classificacao_feedback": {
+    "zero_shot": "Classifique o feedback do jogador em POSITIVO, NEGATIVO, NEUTRO ou MISTO.",
+    "few_shot": "Use os exemplos abaixo para aprender o padrão de classificação antes de responder.",
+    "cot": "Analise os sentimentos positivos e negativos separadamente antes de classificar.",
+    "role": "Como especialista em UX de games, classifique o feedback com precisão técnica."
+  },
+  "extracao_requisitos": {
+    "zero_shot": "Extraia os requisitos técnicos em formato JSON estruturado.",
+    "few_shot": "Siga os exemplos de extração de requisitos para manter consistência no JSON.",
+    "cot": "Decomponha feature, tecnologia, plataforma, prioridade e estimativa passo a passo.",
+    "role": "Como Tech Lead, extraia requisitos priorizando viabilidade técnica e custo."
+  },
+  "geracao_pitch": {
+    "zero_shot": "Crie um pitch executivo completo para o conceito de jogo fornecido.",
+    "few_shot": "Use o exemplo de pitch para manter o mesmo nível de qualidade e estrutura.",
+    "cot": "Construa o pitch identificando mercado, problema, solução e diferencial em sequência.",
+    "role": "Como Diretor Criativo, crie um pitch que convença investidores e o board executivo."
+  },
+  "sumarizacao_tendencias": {
+    "zero_shot": "Sumarize as tendências em bullet points executivos para o time de produto.",
+    "few_shot": "Use o exemplo de sumarização para manter o mesmo nível de síntese e formato.",
+    "cot": "Identifique dados quantitativos, agrupe por categoria e derive a oportunidade.",
+    "role": "Como analista de mercado, sumarize priorizando impacto estratégico para a GameForge."
+  }
+}

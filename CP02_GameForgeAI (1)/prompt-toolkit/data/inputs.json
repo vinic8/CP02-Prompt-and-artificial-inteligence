@@ -1,0 +1,94 @@
+{
+  "classificacao_feedback": [
+    {
+      "input": "Os controles hápticos do GameForge Controller são incríveis — sinto cada tiro e colisão como se fosse real. Melhor hardware que já usei.",
+      "esperado": "POSITIVO"
+    },
+    {
+      "input": "O ray-tracing travou 3 vezes na campanha principal e perdi meu progresso. Totalmente inaceitável para um jogo de $70.",
+      "esperado": "NEGATIVO"
+    },
+    {
+      "input": "A IA dos inimigos é inteligente e surpreendente, mas o matchmaking demora mais de 4 minutos no ranked. Experiência dividida.",
+      "esperado": "MISTO"
+    },
+    {
+      "input": "Jogo funciona como esperado. Nada revolucionário, mas cumpre o que promete.",
+      "esperado": "NEUTRO"
+    },
+    {
+      "input": "A narrativa gerada por IA é viciante e cada run é diferente. Já joguei 80 horas e ainda encontro diálogos novos.",
+      "esperado": "POSITIVO"
+    },
+    {
+      "input": "Gráficos bonitos, porém a física de fluidos no XR Mode causa enjoo em 15 minutos. Tive que parar de jogar.",
+      "esperado": "NEGATIVO"
+    }
+  ],
+  "extracao_requisitos": [
+    {
+      "input": "Precisamos de um sistema de destruição procedural de ambientes para o shooter tático em PC e console de nova geração.",
+      "esperado": {"feature": "destruição procedural", "tecnologia": "física procedural", "plataforma": "PC e console", "prioridade": "alta"}
+    },
+    {
+      "input": "Quero integrar eye-tracking para mira adaptativa no headset XR da GameForge, lançamento mobile auxiliar.",
+      "esperado": {"feature": "eye-tracking mira adaptativa", "tecnologia": "eye-tracking XR", "plataforma": "XR headset"}
+    },
+    {
+      "input": "Sistema de voz gerada por IA para dublagem dinâmica de NPCs no RPG de mundo aberto para console.",
+      "esperado": {"feature": "dublagem IA NPCs", "tecnologia": "TTS generativo", "plataforma": "console"}
+    },
+    {
+      "input": "Engine de anti-cheat comportamental usando ML para o battle royale multiplayer PC.",
+      "esperado": {"feature": "anti-cheat comportamental", "tecnologia": "ML comportamental", "plataforma": "PC"}
+    },
+    {
+      "input": "Inventário cross-platform com blockchain para itens únicos entre PC, console e mobile.",
+      "esperado": {"feature": "inventário cross-platform blockchain", "tecnologia": "blockchain NFT items", "plataforma": "cross-platform"}
+    }
+  ],
+  "geracao_pitch": [
+    {
+      "input": "Jogo de estratégia em tempo real onde a IA adversária aprende e evolui com cada derrota sofrida, nunca repetindo a mesma tática.",
+      "esperado": ["IA adaptativa", "estratégia", "diferencial", "mercado"]
+    },
+    {
+      "input": "Plataforma de esports com IA que cria highlights automáticos e transmite com narrador sintético personalizado para cada espectador.",
+      "esperado": ["esports", "IA", "highlights", "personalização"]
+    },
+    {
+      "input": "RPG de sobrevivência em XR onde o ambiente físico real do jogador (sua casa, escritório) vira o mapa do jogo usando SLAM.",
+      "esperado": ["XR", "SLAM", "ambiente real", "sobrevivência"]
+    },
+    {
+      "input": "Sistema de progressão universal onde conquistas em qualquer jogo GameForge desbloqueiam conteúdo em todos os outros títulos do estúdio.",
+      "esperado": ["cross-game", "progressão", "retenção", "ecossistema"]
+    },
+    {
+      "input": "Jogo de terror cooperativo onde a IA diretora ajusta sustos, dificuldade e roteiro em tempo real com base no ritmo cardíaco do jogador via wearable.",
+      "esperado": ["biometria", "terror", "IA diretora", "wearable"]
+    }
+  ],
+  "sumarizacao_tendencias": [
+    {
+      "input": "Relatório GamesIndustry.biz Q1 2025: receita global de games atingiu $201B, cloud gaming representa 8% e cresce 41% YoY, IA generativa reduz custo de assets em 60%, XR atinge 22M headsets ativos.",
+      "esperado": ["cloud gaming", "IA generativa", "XR", "receita"]
+    },
+    {
+      "input": "Nielsen Gaming Report: 67% dos jogadores Geração Z preferem jogos com narrativa gerada por IA, 54% pagam mais por experiências XR, modelos de assinatura superam compra única em 3:1.",
+      "esperado": ["geração Z", "narrativa IA", "assinatura", "XR"]
+    },
+    {
+      "input": "IDC Forecast 2025: mobile gaming cresce para 55% da receita total, hipercasual declina 18%, jogos com IA social crescem 89% em DAU, cloud gaming reduz custo de aquisição de hardware em 40%.",
+      "esperado": ["mobile", "cloud", "IA social", "hipercasual"]
+    },
+    {
+      "input": "Steam Trends 2025: roguelikes com IA procedural lideram wishlist com 34M entradas, early access com feedback loop de IA tem 2.3x mais retenção, mods gerados por IA representam 12% do conteúdo novo.",
+      "esperado": ["roguelike", "early access", "retenção", "mods IA"]
+    },
+    {
+      "input": "Accenture Gaming Tech Report: estúdios que adotam IA generativa para desenvolvimento reduzem ciclo de produção em 35%, custo de localização cai 70% com TTS e tradução automática, QA automatizado elimina 80% de bugs críticos.",
+      "esperado": ["produção", "localização", "QA automatizado", "IA generativa"]
+    }
+  ]
+}
